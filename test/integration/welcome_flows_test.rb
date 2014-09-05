@@ -2,8 +2,8 @@ require 'test_helper'
 
 class WelcomeFlowsTest < ActionDispatch::IntegrationTest
   setup do
-    #Capybara.current_driver = Capybara.javascript_driver # :seleniun by default
-    Capybara.javascript_driver = :webkit
+    Capybara.current_driver = Capybara.javascript_driver # :seleniun by default
+    #Capybara.javascript_driver = :webkit
   end
 
   def display_profile()
