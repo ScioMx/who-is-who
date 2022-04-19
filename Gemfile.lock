@@ -4,7 +4,7 @@ GEM
     actionmailer (4.1.4)
       actionpack (= 7.0.2.3)
       actionview (= 7.0.2.3)
-      mail (~> 2.5.4)
+      mail (~> 2.7.1)
     actionpack (7.0.2.3)
       actionview (= 7.0.2.3)
       activesupport (= 7.0.2.3)
@@ -68,7 +68,7 @@ GEM
       jquery-rails
       railties (>= 3.1.0)
     json (2.6.1)
-    mail (2.5.4)
+    mail (2.7.1)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     meta_request (0.3.4)
